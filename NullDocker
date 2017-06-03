@@ -1,0 +1,6 @@
+#NullDocker
+
+FROM ubuntu:16.04
+MAINTAINER Baba Fakruddin <babapdtr@gmail.com>
+
+RUN apt-get update && apt-get install curl \htop -y
